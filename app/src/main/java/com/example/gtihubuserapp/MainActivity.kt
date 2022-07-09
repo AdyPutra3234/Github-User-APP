@@ -1,6 +1,7 @@
 package com.example.gtihubuserapp
 
 import android.annotation.SuppressLint
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import androidx.recyclerview.widget.LinearLayoutManager
@@ -31,9 +32,9 @@ class MainActivity : AppCompatActivity() {
             val dataAvatar = resources.obtainTypedArray(R.array.avatar)
             val dataCompany = resources.getStringArray(R.array.company)
             val dataLocation = resources.getStringArray(R.array.location)
-            val dataRepository = resources.getIntArray(R.array.repository)
-            val dataFollower = resources.getIntArray(R.array.followers)
-            val dataFollowing = resources.getIntArray(R.array.following)
+            val dataRepository = resources.getStringArray(R.array.repository)
+            val dataFollower = resources.getStringArray(R.array.followers)
+            val dataFollowing = resources.getStringArray(R.array.following)
 
             val listUser = ArrayList<User>()
 
@@ -59,5 +60,13 @@ class MainActivity : AppCompatActivity() {
         rvUser.layoutManager = LinearLayoutManager(this)
         val userListAdapter = UserListAdapter(list)
         rvUser.adapter = userListAdapter
+
+        userListAdapter.setOnItemClickCallback(object : UserListAdapter.OnItemClickCallback {
+            override fun onItemClicked(data: User) {
+                val intent = Intent(this@MainActivity, UserDetailPage::class.java)
+                intent.putExtra(UserDetailPage.EXTRA_USER, data)
+                startActivity(intent)
+            }
+        })
     }
 }
