@@ -7,6 +7,8 @@
     <string name="repository">Repository</string>
     <string name="company">Company :</string>
     <string name="location">Location :</string>
+    <string name="dicoding_submission">dicoding submission</string>
+    <string name="github_user_app">Github User APP</string>
     <string-array name="username">
         <item>JakeWharton</item>
         <item>amitshekhariitbhu</item>
