@@ -1,7 +1,6 @@
 package com.example.gtihubuserapp
 
 import android.content.res.Configuration
-import android.media.Image
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
@@ -12,16 +11,6 @@ class UserDetailPage : AppCompatActivity() {
 
     companion object {
         const val EXTRA_USER = "extra_user"
-    }
-
-
-    override fun onConfigurationChanged(newConfig: Configuration) {
-        super.onConfigurationChanged(newConfig)
-        if(newConfig.orientation == Configuration.ORIENTATION_LANDSCAPE) {
-            setContentView(R.layout.user_detail_page)
-        } else if (newConfig.orientation == Configuration.ORIENTATION_PORTRAIT) {
-            setContentView(R.layout.activity_user_detail_page)
-        }
     }
 
     override fun onCreate(savedInstanceState: Bundle?) {
