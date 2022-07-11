@@ -1,4 +1,4 @@
-package com.example.gtihubuserapp
+package com.example.githubuserapp
 
 import android.content.res.Configuration
 import androidx.appcompat.app.AppCompatActivity
@@ -15,6 +15,9 @@ class UserDetailPage : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+
+        supportActionBar?.title = "Detail Page"
+
         if (application.resources.configuration.orientation == Configuration.ORIENTATION_LANDSCAPE) {
             setContentView(R.layout.user_detail_page)
         } else {
@@ -22,7 +25,6 @@ class UserDetailPage : AppCompatActivity() {
         }
 
         val user = intent.getParcelableExtra<User>(EXTRA_USER) as User
-        Log.d("user", user.toString())
 
         val avatar: ImageView = findViewById(R.id.detailPage_avatar)
         val userName: TextView = findViewById(R.id.userName)

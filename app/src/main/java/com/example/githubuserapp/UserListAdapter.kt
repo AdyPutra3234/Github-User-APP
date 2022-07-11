@@ -1,4 +1,4 @@
-package com.example.gtihubuserapp
+package com.example.githubuserapp
 
 import android.view.LayoutInflater
 import android.view.View

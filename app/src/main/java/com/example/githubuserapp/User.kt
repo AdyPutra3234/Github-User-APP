@@ -1,4 +1,4 @@
-package com.example.gtihubuserapp
+package com.example.githubuserapp
 
 import android.os.Parcelable
 import kotlinx.parcelize.Parcelize
