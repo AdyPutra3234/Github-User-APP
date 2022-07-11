@@ -22,10 +22,8 @@
 
     <TextView
         android:id="@+id/userName"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        style="@style/TextContent"
         android:layout_marginTop="8dp"
-        android:textSize="16sp"
         app:layout_constraintEnd_toEndOf="@+id/detailPage_avatar"
         app:layout_constraintStart_toStartOf="@+id/detailPage_avatar"
         app:layout_constraintTop_toBottomOf="@+id/detailPage_avatar"
@@ -33,11 +31,8 @@
 
     <TextView
         android:id="@+id/fullName"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="8dp"
-        android:textSize="24sp"
-        android:textStyle="bold"
+        style="@style/TextContent.Heading"
+        android:layout_marginTop="16dp"
         app:layout_constraintEnd_toEndOf="@+id/userName"
         app:layout_constraintStart_toStartOf="@+id/userName"
         app:layout_constraintTop_toBottomOf="@+id/userName"
@@ -45,8 +40,7 @@
 
     <TextView
         android:id="@+id/location"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        style="@style/TextContent"
         android:layout_marginTop="8dp"
         app:layout_constraintEnd_toEndOf="@+id/fullName"
         app:layout_constraintStart_toStartOf="@+id/fullName"
@@ -55,8 +49,7 @@
 
     <TextView
         android:id="@+id/company"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        style="@style/TextContent"
         android:layout_marginTop="8dp"
         app:layout_constraintEnd_toEndOf="@+id/location"
         app:layout_constraintStart_toStartOf="@+id/location"
@@ -66,10 +59,7 @@
 
     <TextView
         android:id="@+id/follower"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:textSize="16sp"
-        android:textStyle="bold"
+        style="@style/TextContent.Bold"
         app:layout_constraintBottom_toTopOf="@+id/textView"
         app:layout_constraintEnd_toEndOf="@+id/textView"
         app:layout_constraintHorizontal_bias="0.346"
@@ -80,21 +70,16 @@
 
     <TextView
         android:id="@+id/textView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        style="@style/TextContent.small"
         android:layout_marginStart="55dp"
-        android:textSize="12sp"
         app:layout_constraintBottom_toBottomOf="@+id/textView2"
         app:layout_constraintStart_toStartOf="parent"
         android:text="@string/followers"/>
 
     <TextView
         android:id="@+id/following"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        style="@style/TextContent.Bold"
         android:layout_marginTop="40dp"
-        android:textSize="16sp"
-        android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="@+id/textView2"
         app:layout_constraintHorizontal_bias="0.576"
         app:layout_constraintStart_toStartOf="@+id/textView2"
@@ -103,9 +88,7 @@
 
     <TextView
         android:id="@+id/textView2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:textSize="12sp"
+        style="@style/TextContent.small"
         app:layout_constraintEnd_toStartOf="@+id/textView3"
         app:layout_constraintStart_toEndOf="@+id/textView"
         app:layout_constraintTop_toBottomOf="@+id/following"
@@ -113,10 +96,7 @@
 
     <TextView
         android:id="@+id/repository"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:textSize="16sp"
-        android:textStyle="bold"
+        style="@style/TextContent.Bold"
         app:layout_constraintEnd_toEndOf="@+id/textView3"
         app:layout_constraintStart_toStartOf="@+id/textView3"
         app:layout_constraintTop_toTopOf="@+id/following"
@@ -124,10 +104,8 @@
 
     <TextView
         android:id="@+id/textView3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        style="@style/TextContent.small"
         android:layout_marginEnd="55dp"
-        android:textSize="12sp"
         app:layout_constraintBottom_toBottomOf="@+id/textView2"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/repository"
