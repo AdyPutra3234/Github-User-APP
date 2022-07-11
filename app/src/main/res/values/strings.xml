@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Gtihub User APP</string>
+    <string name="app_name">Github User APP</string>
     <string name="user_photo">user photo</string>
     <string name="go_detail">go detail</string>
     <string name="followers">Followers</string>
