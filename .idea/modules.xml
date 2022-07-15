@@ -2,11 +2,11 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Gtihub_User_APP.iml" filepath="$PROJECT_DIR$/.idea/modules/Gtihub_User_APP.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Gtihub_User_APP.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Gtihub_User_APP.app.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Gtihub_User_APP.app.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Gtihub_User_APP.app.androidTest.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Gtihub_User_APP.app.main.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Gtihub_User_APP.app.main.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Gtihub_User_APP.app.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Gtihub_User_APP.app.unitTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Github_User_APP.iml" filepath="$PROJECT_DIR$/.idea/modules/Github_User_APP.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Github_User_APP.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Github_User_APP.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Github_User_APP.app.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Github_User_APP.app.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Github_User_APP.app.main.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Github_User_APP.app.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Github_User_APP.app.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Github_User_APP.app.unitTest.iml" />
     </modules>
   </component>
 </project>
